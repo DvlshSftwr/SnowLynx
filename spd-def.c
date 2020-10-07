@@ -57,3 +57,8 @@ void badCommand(const char* badCmd) {
 	badCmd, HELP);
 }
 
+void laterHater(void) {
+    std::cout << "[{( Later Hater )}]\nPress Enter To Exit\n";
+    std::cin.get();
+    std::cin.get();
+}
