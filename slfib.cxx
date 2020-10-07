@@ -12,17 +12,15 @@ const short       MAX { 100 },
                   MIN { 0 }; 
 
 
-void fizzBuzzer(short x, short y, short z);
-void makeInteractive(void);
-void laterHater(void);
-void clearScreen(short OS);
+void  fizzBuzzer(short x, short y, short z);
+void  makeInteractive(void);
+void  laterHater(void);
+void  clearScreen(short OS);
+short checkOS(void);
 
 
 int main (int argCnt, char** argVec) {
-    short OS   { MIN };
-    
-    std::cout << "DOS or NIX?(1/2) : ";
-    std::cin >> OS;
+    short OS   { checkOS() };
     
     if (strcmp(argVec[1], "-i") == 0 || strcmp(argVec[1], "--interactive") == 0) {
     
@@ -80,10 +78,21 @@ void laterHater(void) {
     std::cin.get();
 }
 
+
 void clearScreen(short OS) {
     if (OS == 1)
         system(DOS.c_str());
 
     else if (OS = 2)
         system(NIX.c_str());
+}
+
+
+short checkOS(void) {
+    short retVal { MIN };
+  
+    std::cout << "DOS or NIX?(1/2) : ";
+    std::cin >> retVal;
+    
+    return retVal;
 }
