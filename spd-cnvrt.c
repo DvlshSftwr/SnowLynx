@@ -3,8 +3,8 @@
 
 int main(int argCnt, char** argVec) {
 	static int exitCode = A,
-			   argIdx   = A,
-			   count    = A;
+		   argIdx   = A,
+		   count    = A;
 	
 	for (argIdx = B, count = B; argIdx < argCnt; argIdx++, count++) { 
 		if (strcmp(argVec[argIdx], MPH_2_KPH) == A)
