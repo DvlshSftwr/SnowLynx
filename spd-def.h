@@ -4,8 +4,8 @@
 
 #define	MPH_2_KPH "--mph-2-kph"
 #define	KPH_2_MPH "--kph-2-mph"
-#define	M2K		  "-m2k"
-#define	K2M		  "-k2m"
+#define	M2K	  "-m2k"
+#define	K2M	  "-k2m"
 #define	HELP	  "--help"
 #define	CNVR_RSLT "Conversion Result %d : %.2f\n\n"
 
