@@ -1,5 +1,5 @@
 # SnowLynx
-The SnowLynx is a collection of open source CLI based programs produced by Dvlsh::Sftwr, rooted in Fluffykins's creative boredom. These programs are for any use, may it be practical, educational, or just plain fun.
+SnowLynx is a collection of open source CLI based programs produced by Dvlsh::Sftwr, rooted in Fluffykins's creative boredom. These programs are for any use, may it be practical, educational, or just plain fun.
 
 "You are free to do as you please with this code. You can use the functions in your own programs which need it, use it a study materal, use it as just the CLI 
 programs they where made to be, develop them further and submit (I WILL MOST CERTINLY LIST YOU HERE AS A DEVELOPER ^,..,^ if you do the work, you 
