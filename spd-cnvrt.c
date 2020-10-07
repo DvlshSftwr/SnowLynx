@@ -30,6 +30,8 @@ int main(int argCnt, char** argVec) {
 		}
 	}
 	
+	laterHater();
+	
 	return exitCode;
 }
 
