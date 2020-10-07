@@ -37,4 +37,6 @@ void  helpMenu(void);
 
 void  badCommand(const char* badCmd);
 
+void laterHater(void);
+
 #endif
