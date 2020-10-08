@@ -5,12 +5,12 @@ SnowLynx is a collection of open source CLI based programs produced by Dvlsh::Sf
 programs they where made to be, develop them further and submit (**I WILL MOST CERTINLY LIST YOU HERE AS A DEVELOPER** ^,..,^ if you do the work, you 
 get the credit!), hell, do what you want with them, just remember who you got them from! >;3" -Fluffykins
 
-#### slsuc - spd-cnvrt.c, spd-def.c/h
+### slsuc - spd-cnvrt.c, spd-def.c/h
 
 The SnowLynx Speed Unit Converter, abreviated 'slsuc', is a CLI based speed and distance unit converter. It was born from a dispute on a discord server as to 
 what 35mph is in kph and nobody wanting to look the differences up so a propper accurate calculation could be made, as well as Fluffy's insufferable need to be right. 
 
-#### slifb - slifb.cxx
+### slifb - slifb.cxx
 
 "I made a FizzBuzzer in C++...then I got bored...and this happened...I've spent _waaay_ too much time on this! XD" - Fluffykins
 
