@@ -87,7 +87,7 @@ void clearScreen(short OS) {
     if (OS == 1)
         system(DOS.c_str());
 
-    else if (OS = 2)
+    else if (OS == 2)
         system(NIX.c_str());
 }
 
