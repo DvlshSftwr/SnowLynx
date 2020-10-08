@@ -33,7 +33,7 @@ int main (int argCnt, char** argVec) {
         
         makeInteractive();
     }
-    else if (strcmp(argVec[1], STAT_1.c_str()) == 0 || strcmp(argVec[1], STAT_2.c_str) == 0) 
+    else if (strcmp(argVec[1], STAT_1.c_str()) == 0 || strcmp(argVec[1], STAT_2.c_str()) == 0) 
         fizzBuzzer(3, 5, 15);
     
     laterHater();
