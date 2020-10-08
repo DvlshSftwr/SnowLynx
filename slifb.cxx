@@ -3,13 +3,17 @@
 #include <iostream>
 #include <cstring>
 
-const std::string FIZ { "Fizz" },
-                  BUZ { "Buzz" },
-                  DOS { "cls" },
-                  NIX { "clear" };
+const std::string FIZ    { "Fizz" },
+                  BUZ    { "Buzz" },
+                  DOS    { "cls" },
+                  NIX    { "clear" }, 
+                  INTR_1 { "-i" },
+                  INTR_2 { "--interactive" },
+                  STAT_1 { "-s" },
+                  STAT_2 { "--static" };
 
-const short       MAX { 100 },
-                  MIN { 0 }; 
+const short       MAX    { 100 },
+                  MIN    { 0 }; 
 
 
 void  fizzBuzzer(short x, short y, short z);
@@ -20,20 +24,20 @@ short checkOS(void);
 
 
 int main (int argCnt, char** argVec) {
-    short OS   { checkOS() };
+    short OS { checkOS() };
     
-    if (strcmp(argVec[1], "-i") == 0 || strcmp(argVec[1], "--interactive") == 0) {
+    if (strcmp(argVec[1], INTR_1.c_str()) == 0 || strcmp(argVec[1], INTR_2.c_str()) == 0) {
     
         if (OS < 1 || OS > 2)
             return EXIT_FAILURE;
         
         makeInteractive();
     }
-    else if (strcmp(argVec[1], "-s") == 0 || strcmp(argVec[1], "--static") == 0) 
+    else if (strcmp(argVec[1], STAT_1.c_str()) == 0 || strcmp(argVec[1], STAT_2.c_str) == 0) 
         fizzBuzzer(3, 5, 15);
     
     laterHater();
-    clearScreen();
+    clearScreen(OS);
     
     return EXIT_SUCCESS;
 }
