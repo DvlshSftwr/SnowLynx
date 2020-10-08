@@ -26,14 +26,14 @@ short checkOS(void);
 int main (int argCnt, char** argVec) {
     short OS { checkOS() };
     
-    if (strcmp(argVec[1], INTR_1.c_str()) == 0 || strcmp(argVec[1], INTR_2.c_str()) == 0) {
+    if (strcmp(argVec[1], INTR_1.c_str()) == MIN || strcmp(argVec[1], INTR_2.c_str()) == MIN) {
     
         if (OS < 1 || OS > 2)
             return EXIT_FAILURE;
         
         makeInteractive();
     }
-    else if (strcmp(argVec[1], STAT_1.c_str()) == 0 || strcmp(argVec[1], STAT_2.c_str()) == 0) 
+    else if (strcmp(argVec[1], STAT_1.c_str()) == MIN || strcmp(argVec[1], STAT_2.c_str()) == MIN) 
         fizzBuzzer(3, 5, 15);
     
     laterHater();
